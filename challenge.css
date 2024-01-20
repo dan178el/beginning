@@ -1,0 +1,80 @@
+/*Immagine di background*/
+html {    
+    background: url('background.jpg') no-repeat center fixed;     
+    background-size: contain;
+}
+
+/*Maschera trasparente*/
+.container {
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    margin: auto;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+/*Elementi Header*/
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0,221,0);
+    margin-top: -5px;
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+
+.bottoni{
+    background-color: rgb(0,221,0);
+    padding: 5px;
+    width: 83%;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Elementi Body*/
+div{
+    margin-left: 51px;
+    color: white;
+    font-size: 12px;
+}
+
+/*Barre carica*/
+.barre{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#carica1{
+    background-color: rgb(221, 188, 0);
+    width: 30%;
+}
+
+#carica2{
+    background-color: rgb(26, 221, 0);
+    width: 50%;
+}
+
+#carica3{
+    background-color: rgb(216, 4, 4);
+    width: 13%;
+}
+
+span{
+    font-size: 20px;
+}
